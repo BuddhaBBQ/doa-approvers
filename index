@@ -7,7 +7,7 @@
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/BuddhaBBQ/doa-approvers/main/css?token=GHSAT0AAAAAACAUKH2HADAJSAQUGOHHEY6IZBNQG7A">
 </head>
 
   <body>
@@ -38,7 +38,7 @@
     </footer>
 
 
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="https://raw.githubusercontent.com/BuddhaBBQ/doa-approvers/main/JS?token=GHSAT0AAAAAACAUKH2HKQ5KTEADMIYHZT6CZBNQGYQ"></script>
 
   </div>
   </body>
