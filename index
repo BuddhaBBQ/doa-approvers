@@ -1,65 +1,46 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <title>Tip Calculator</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+  <title>MAGIC 8 BALL</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 
-  </head>
-  <body class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <div class="card card-body text-center mt-5">
-            <h1 class="heading display-5 pb-3">Tip Calculator</h1>
-            <form id="tip-form">
-              <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-addon">$</span>
-                  <input type="number" class="form-control" id="billTotal" placeholder="Total Bill">
-                </div>
-              </div>
-              <div class="form-group tipPersent">
-                <div class="input-group">
-                  <label for="">Tip:</label>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
+  <body>
+  <div class="page">
 
-                  <input type="range" class="form-control" id="tipInput" value="0">
-                  <span class="input-group-addon" id="tipOutput"></span>
-                </div>
-              </div>
+    <header>
+      <h1>MAGIC <span>8</span> BALL</h1>
+    </header>
 
+    <div class="ball" style="position:relative; width:80%" >
 
+      <p id="answer" class="answer">
+        THIS IS WHERE THE ANSWER GOES
+      </p>
 
-            </form>
-            <hr>
+       <img id="8ball" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png" alt="Magic 8 Ball">
 
-            <!-- RESULTS -->
-            <div id="results" class="pt-4">
-              <h5>Results</h5>
-              <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-addon">Tip amount</span>
-                  <input type="number" class="form-control" id="tipAmount" disabled>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-addon">Total Bill with Tip</span>
-                  <input type="number" class="form-control" id="totalBillWithTip" disabled>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+
+    <br><br>
+
+    <div class="button" style="position:relative; width:80%">
+      <button id="questionButton">ASK ME ANYTHING </button>
+    </div>
+
+    <footer>
+      <p>&copy; Skillcrush 2016</p>
+    </footer>
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+  </div>
   </body>
+
 </html>
